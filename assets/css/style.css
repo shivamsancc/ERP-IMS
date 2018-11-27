@@ -1,0 +1,391 @@
+
+.admin-head{
+	background-color: #74b2de;
+	height:60px;
+	margin:0px;
+	padding: 0px;
+	
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+.head-logo{
+	height: 60PX;
+	float: left;
+    width: 83%;
+    margin-left: -37px;
+  
+}
+.notice{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 1%;
+    background-color: #74b2de;
+    color: white;
+ 	
+    }
+	.notice-title{
+	background-color: black;
+    height: 30px;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    color: #ffff;
+    padding: auto;
+    padding: 5px;
+		}
+.logout-icon{
+ 	font-size: 39px;
+ 	margin-left: 31px;
+    margin-top: 10px;
+    color: white;
+	}
+img.marquee-icon{
+    height: 50px;    }
+
+.Notice{
+	color: white;
+ }
+.logout{
+    margin-left: -175px;
+    border-top:5px solid #e09c19;
+        height: 120px;
+        width: 250px;
+            animation-duration: .5s;
+                animation-name: fadeInDown;
+}
+.logout a{
+    border-bottom:2px solid #74b2de;
+    margin-top: 14px;
+    margin-left: 14px;    
+}
+
+
+/*----------------------------------------Admin Footer ----------------------------------------*/
+.admin-footer{
+	height: 55px;
+	background-color: white;
+	margin:0px;
+	margin-top: 1%;
+	padding: 0px;
+	    width: 85%;
+    float: right;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.Right{
+ padding-top: 16px;
+	
+}
+
+.Support li {
+ display: inline-block;
+ float: right;
+    height: 50;
+    width: 50;
+    text-align: center;
+    border-radius: 50%;
+    /*color: #ffff !important;*/
+    line-height: 50px !important;
+    font-size: 20px;
+    margin-right: 5px;
+    border:2px solid #e09c19;
+
+ }
+ .Support li:hover {
+ background-color: #139ed9;
+ color: #ffff !important;
+
+
+ }
+
+.Support li i {
+	color: black;
+	line-height: 45px;
+}
+.footer-logo{
+
+	width: 110px;
+    height: 25px;
+
+    }
+.footer-logo:hover{
+
+	width: 160px;
+    height: 40px;
+    margin-top: -5px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 4px;
+
+    }
+/*----------------------------------------Admin Footer ----------------------------------------*/
+
+/*----------------------------------------Sidebar----------------------------------------------*/
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin-top: 60px;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #006595;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: white;
+    color: #006190;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #9189fd;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*-------------------------------------------------------Sidebar Ends Here-------------*/
+/*--------------------------------------------- Dashboard Body+----------------------------------*/
+ 	
+body{
+	background-color: #EEF2F6;
+}
+.Dash-main{
+
+	padding-left: 210px;
+        padding-top: 60px;
+}
+.Dash-upper-box{
+	background-color: #538EC9;
+	height: 50px;
+	border-radius: 4px;
+	width: 100%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	padding: 0;
+}
+.brand-icon{
+	margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    color: white;
+    height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 10px;
+    font-size: 23px;
+    padding: 2px;
+    float: left; 
+}
+
+.Dash-upper-box-text{
+	margin-top: 15px;
+	color: white;
+}.Dash-main-a{
+	padding: 0px;
+	border-radius: 4px;
+   
+}
+.Dash-main-a1{
+	height: 112px;
+	background-color: #9189FD;
+	border-radius: 4px;
+	width: 24%;
+	margin: 5px;
+	padding-left: 4%;
+    padding-top: 1%;
+}
+.Dash-main-a2{
+	height: 112px;
+	background-color: #F2B673;
+	border-radius: 4px;
+	width: 24%;
+	margin: 5px;
+	padding-left: 4%;
+    padding-top: 1%;
+	
+
+}
+.Dash-main-a3{
+	height: 112px;
+	background-color: #8DC8FF;
+	border-radius: 4px;
+	width: 24%;
+	margin: 5px;
+	padding-left: 4%;
+    padding-top: 1%;
+}
+.Dash-main-a4{
+	height: 112px;
+	background-color: #F790C8;
+	border-radius: 4px;
+	width: 24%;
+	margin: 5px;
+	padding-left: 4%;
+    padding-top: 1%;
+}
+/*---------------------------------------------Dashboard Body-----------------------------------*/
+/*---------------------------------------------scroll BUTTON-----------------------------------*/
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/*---------------------------------------------scroll BUTTON-----------------------------------*/
+/*---------------------------------------------Search Student---------------------------------*/
+input.search_student[type=text] {
+width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://www.w3schools.com/howto/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input.search_student[type=text]:focus {
+    width: 100%;
+}
+.search_student{
+	margin-top: 2%;
+}
+table.search_student {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+table.search_student th, td {
+    text-align: left;
+    padding: 16px;
+    
+
+}
+
+table.search_student tr:nth-child(even) {
+    background-color: #5F5F5F;
+     width: 100%;
+     color: white;
+
+}
+/*---------------------------------------------Search Student---------------------------------*/
+/*---------------------------------------------Notice Board-----------------------------------*/
+.Notice-line{
+ border:1px dashed black;
+}
+
+/*---------------------------------------------Notice Board------------------------------------*/
+/*---------------------------------------------Messege Block-----------------------------------*/
+.messege-block{
+    height: 213px;
+    width: 308px;
+
+    position: absolute;
+    bottom: 200px;
+    right: 144px;
+    /* background-color: black; */
+    color: white;
+    padding-left: 94px;
+    padding-right: 20px;
+    max-height: 450px ;
+    margin: 0px 2px 0px 0px; 
+}
+textarea.send_messege_box{
+	    resize: vertical;
+	/*        margin-top: 37px;*/
+    margin-bottom: 0px;
+    height: 300px;
+}
+textarea.send_messege_mobile{
+	    resize: vertical;
+	    margin-top: 56px; 
+	    margin-bottom: 0px; 
+	    height: 278px;
+        width: 192px;
+            background-color: #fff;
+}
+/*---------------------------------------------Messege Block-----------------------------------*/
+/*---------------------------------------------Loader Block-----------------------------------*/
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('http://localhost/erp/assets/images/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+/*---------------------------------------------Loader Block-----------------------------------*/
+/*---------------------------------------------Add Student Block-----------------------------------*/
+.add_image{
+	border:2px solid black;
+	height:300px;
+    
+}
+
+
+/*---------------------------------------------Add Student Block-----------------------------------*/
