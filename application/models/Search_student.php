@@ -24,6 +24,15 @@ return $result;
 
 }
 
+public function mainnotice($id)
+{
+	$this->db->where('id',$id); 
+	 $this->db->from('cittet_dash_notice');
+$query = $this->db->get();
+$result = $query->row_array();
+return $result;
+
+}
 
 }
 ?>

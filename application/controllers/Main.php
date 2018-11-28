@@ -313,9 +313,9 @@ class Main extends CI_Controller {
 		/*-------------------------------------------------------------------Main Notice----------------------------*/
 	public function Main_notice($id)
 	{
-		$data['marquee']=$this->search_student->getdata($id);
-		$data['student_registration']=$this->search_student->getdata();
-		
+		$data['marquee']=$this->search_student->getdata();
+		$data['idd']=$this->search_student->mainnotice($id);
+			
 
 
 		$this->load->view('admin/Main_notice',$data);
