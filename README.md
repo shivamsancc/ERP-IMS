@@ -4,9 +4,12 @@ it is a basically a kind of ERP Build on codeigniter,mysql,  bootstrap, ajax and
 
 
 ## &copy; Rights Reserved 
+<<<<<<< HEAD
 =======
 ## &copy;
 
+=======
+>>>>>>> 7fce2b7cdc817ad151cfc03bfafb4c6624bbaa7c
 All the scripts on this username is owned by Shivam Anand
 
 
