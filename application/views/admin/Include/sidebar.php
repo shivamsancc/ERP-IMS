@@ -94,6 +94,15 @@
     <a class="fa fa-fw fa fa fa-wechat" href="<?= base_url('send-Messege'); ?>">  Send Message</a>  	
   </div>
   <!--Message-->  
+  <!--Message-->
+   <button class="fa fa-fw fa fa fa-envelope-o dropdown-btn">   Mail
+    <i class="fa fa-caret-down"></i></i> 
+  </button>
+  <div class="dropdown-container">
+    <a class="fa fa-fw fa fa fa-dashboard" href="<?= base_url('messege'); ?>">  Mail Dashboard</a>
+    <a class="fa fa-fw fa fa fa-envelope" href="<?= base_url('mail'); ?>">  Send Mail</a>  	
+  </div>
+  <!--Message--> 
       <!--Course-->
    <button class="fa fa-fw fa fa-graduation-cap dropdown-btn">   Course
     <i class="fa fa-caret-down"></i></i> 
