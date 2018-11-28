@@ -2,7 +2,11 @@
 
 it is a basically a kind of ERP Build on codeigniter,mysql,  bootstrap, ajax and agularjs and many more languages
 
+
+## &copy; Rights Reserved 
+=======
 ## &copy;
+
 All the scripts on this username is owned by Shivam Anand
 
 
