@@ -6,7 +6,7 @@
  "settings": {
   "m_runAs": 1,
   "m_phpExe": "C:\\Xampp\\php\\php.EXE",
-  "m_indexFile": "C:\\xampp\\htdocs\\erp\\application\\views\\admin\\add_student.php",
+  "m_indexFile": "C:\\xampp\\htdocs\\erp\\application\\views\\admin\\send_mail.php",
   "m_args": "",
   "m_workingDirectory": "",
   "m_projectURL": "localhost/erp",

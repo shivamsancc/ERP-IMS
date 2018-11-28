@@ -12,11 +12,12 @@
 	<!--Notice Section-->
 		<div class="col-md-11 notice">
 			
-			<marquee onMouseOver="this.stop()" onMouseOut="this.start()" ><img class="marquee-icon" src="<?= base_url('assets/') ?>images/nuclear.svg"> <?php foreach($marquee as $mar) { ?>
-
-	 <a class="Notice" href="<?php base_url();?>Main/main_notice/<?= $mar['id']; ?>"><?= $mar['title']; ?></a>
-
-<?php } ?>
+			<marquee onMouseOver="this.stop()" onMouseOut="this.start()" ><img class="marquee-icon" src="<?= base_url('assets/') ?>images/nuclear.svg"> 
+			<?php foreach($marquee as $mar) { ?>
+			
+			<a class="Notice" href="<?php base_url();?>Main/main_notice/<?= $mar['id']; ?>"><?= $mar['title']; ?></a>
+			
+			<?php } ?>
 			</marquee>
 			
 		</div>
