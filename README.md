@@ -4,7 +4,6 @@ it is a basically a kind of ERP Build on codeigniter,mysql,  bootstrap, ajax and
 
 
 ## &copy; Rights Reserved 
-<<<<<<< HEAD
 =======
 ## &copy;
 
