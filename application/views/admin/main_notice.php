@@ -12,7 +12,7 @@
 		<p class=""><?= $idd['title']; ?></p>
 	<div class="form-control notive_body" readonly="readonly" style="background-color:#ffff;height: auto; min-height:286px;" >
 		<img src="http://www.citet.org/wp-content/uploads/2015/04/citet-logo.jpg" class="img-responsive" />
-		NOTICE BY: <?= $idd['createdby']; ?><hr class="Notice-line">
+		Notice BY: <?= $idd['createdby']; ?><br>Notice Date: <?= $idd['create_date']; ?><hr class="Notice-line">
 		<?=	$idd['message'];?><hr class="Notice-line">
 		<img src="http://www.citet.org/wp-content/uploads/2015/04/citet-logo.jpg" class="img-responsive" />
 	</div>

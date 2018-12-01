@@ -1,75 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\xampp\htdocs\erp\erp.workspace">
-  <int Value="6" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="C:\xampp\htdocs\erp\erp.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="C:\xampp\htdocs\erp\assets\css\style.css" Name="FileName"/>
-      <int Value="255" Name="FirstVisibleLine"/>
-      <int Value="271" Name="CurrentLine"/>
+      <int Value="369" Name="FirstVisibleLine"/>
+      <int Value="383" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\config\routes.php" Name="FileName"/>
-      <int Value="72" Name="FirstVisibleLine"/>
-      <int Value="109" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\controllers\Main.php" Name="FileName"/>
-      <int Value="299" Name="FirstVisibleLine"/>
-      <int Value="316" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\send_mail.php" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
-      <int Value="22" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\Add_notice.php" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="29" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\Include\sidebar.php" Name="FileName"/>
-      <int Value="83" Name="FirstVisibleLine"/>
-      <int Value="102" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\models\Search_student.php" Name="FileName"/>
-      <int Value="11" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\main_notice.php" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\sms_api.php" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\send_messege.php" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
+      <wxString Value="C:\xampp\htdocs\erp\application\views\admin\add_student.php" Name="FileName"/>
+      <int Value="7" Name="FirstVisibleLine"/>
+      <int Value="34" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

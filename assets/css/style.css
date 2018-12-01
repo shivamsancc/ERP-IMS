@@ -383,7 +383,8 @@ textarea.send_messege_mobile{
 /*---------------------------------------------Add Student Block-----------------------------------*/
 .add_image{
 	border:2px solid black;
-	height:300px;
+	height:212px;
+	widh:40%;
     
 }
 

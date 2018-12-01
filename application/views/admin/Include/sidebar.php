@@ -119,9 +119,9 @@
     <i class="fa fa-caret-down"></i></i> 
   </button>
   <div class="dropdown-container">
-    <a class="fa fa-fw fa fa-graduation-cap" href="#">  Notice</a>
-    <a class="fa fa-fw fa-edit" href="#">  Edit Course </a>
-	<a class="fa fa-fw fa-trash" href="#">  Delete Course </a>
+    <a class="fa fa-fw fa fa-graduation-cap" id="flip" href="#">  Notice</a>
+    <a class="fa fa-fw fa-edit" id="panel" href="#">  Edit Course </a>
+	<a class="fa fa-fw fa-trash" id="panel"  href="#">  Delete Course </a>
     	
   </div>
   <!--Course--> 
@@ -136,3 +136,10 @@
 </div>
 
 </div>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
