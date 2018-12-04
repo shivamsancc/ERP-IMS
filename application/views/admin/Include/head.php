@@ -42,7 +42,7 @@
       <a class="dropdown-item fa fa-user" href="#">  Profile</a><br>
       <a class="dropdown-item fa fa-key" href="#">  Change Password</a><br>
       <div class="dropdown-divider"></div>
-      <a class="dropdown-item fa fa-power-off" href="#">  Logout</a>
+      <a class="dropdown-item fa fa-power-off" href="<?= base_url('logout'); ?>">  Logout</a>
     </div>
   </div>
 			</div>

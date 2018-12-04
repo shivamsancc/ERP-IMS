@@ -34,7 +34,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | -------------------------------------------------------------------
 |  Auto-load Packages
 | -------------------------------------------------------------------
-| Prototype:
+| Prototype:clTabCtrl
 |
 |  $autoload['packages'] = array(APPPATH.'third_party', '/usr/local/shared');
 |
@@ -46,8 +46,7 @@ $autoload['packages'] = array();
 |  Auto-load Libraries
 | -------------------------------------------------------------------
 | These are the classes located in system/libraries/ or your
-| application/libraries/ directory, with the addition of the
-| 'database' library, which is somewhat of a special case.
+| application/libraries/ directory, with the additioncase.
 |
 | Prototype:
 |
@@ -58,7 +57,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('session','database','xmlrpc','email');
+$autoload['libraries'] = array('session','database','xmlrpc','email','form_validation');
 
 /*
 | -------------------------------------------------------------------
