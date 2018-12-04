@@ -19,28 +19,28 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="F:\install\Xampp\htdocs\erp\application\views\login.php" Name="FileName"/>
-      <int Value="202" Name="FirstVisibleLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="F:\install\Xampp\htdocs\erp\application\models\Search_student.php" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="F:\install\Xampp\htdocs\erp\application\controllers\Main.php" Name="FileName"/>
-      <int Value="150" Name="FirstVisibleLine"/>
-      <int Value="161" Name="CurrentLine"/>
+      <int Value="74" Name="FirstVisibleLine"/>
+      <int Value="86" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="F:\install\Xampp\htdocs\erp\application\views\admin\Include\head.php" Name="FileName"/>
-      <int Value="36" Name="FirstVisibleLine"/>
+      <int Value="42" Name="FirstVisibleLine"/>
       <int Value="44" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
