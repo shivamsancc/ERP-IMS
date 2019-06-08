@@ -33,9 +33,10 @@ class Main extends CI_Controller {
 		$pass = $this->input->post('pass');
          
         $log = $this->db->where('first_name',$name)->where('password',md5($pass))->get('cittet_users')->num_rows(); 
-        
+        $user = $this->db->where('first_name',$name)->where('password',md5($pass))->get('cittet_users')->row_array();
        if($log>0)
        {
+		   $this->session->set_userdata('user_id',$user['id']);
             redirect(base_url('').'dashboard');
        }
        else
@@ -45,6 +46,14 @@ class Main extends CI_Controller {
        }
 
 	}
+	public function logout()
+	{
+		$this->session->unset_userdata('user_id');
+		$this->session->sess_destroy();
+		 redirect(base_url(''));
+	}
+	
+	
 	/*-------------------------------------------------------------------Register----------------------------*/
 	public function register()
 	{
@@ -68,13 +77,18 @@ class Main extends CI_Controller {
 	/*-------------------------------------------------------------------Add-Admit-card----------------------------*/
 	public function add_admit()
 	{
+		if(!empty($this->session->userdata('user_id')))
+		{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
-		
-
-
 		$this->load->view('admin/add_admit',$data);
-	}
+		}
+		else
+		{
+			redirect(base_url(''));
+		}
+		}
+	
 
 	/*-------------------------------------------------------------------Add-BranchManager----------------------------*/
 	public function add_branchmanager()
@@ -144,6 +158,8 @@ class Main extends CI_Controller {
 	/*-------------------------------------------------------------------Add_student----------------------------*/
 	public function add_student()
 	{
+		if(!empty($this->session->userdata('user_id')))
+		{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		$this->load->view('admin/Add_student',$data);
@@ -206,6 +222,7 @@ class Main extends CI_Controller {
 
 		
 
+<<<<<<< HEAD
 		$img = $this->input->post('img');
 		$name = $this->input->post('name');
 		$fname = $this->input->post('fname');
@@ -261,6 +278,14 @@ class Main extends CI_Controller {
        {
   			redirect(base_url(''));
        }	
+=======
+		$this->load->view('admin/Add_student',$data);
+		}
+		else
+		{
+			redirect(base_url(''));
+		}
+>>>>>>> f5ef33748fde3e2dc2fd8186271b66838292bc89
 	}
 
 

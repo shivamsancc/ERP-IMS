@@ -114,3 +114,4 @@ $route['mail'] = "Main/send_mail";
 
 $route['email'] = 'mail_Controller';
 
+$route['logout'] = 'Main';

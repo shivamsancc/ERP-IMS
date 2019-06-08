@@ -18,51 +18,47 @@ class Main extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-
-	/*-------------------------------------------------------------------Add-Branch----------------------------*/
-	public function add_Branch()
+	/*-------------------------------------------------------------------add_result----------------------------*/
+	public function add_result()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Add_Branch',$data);
+		$this->load->view('admin/Add_result',$data);
 	}
-	/*-------------------------------------------------------------------Delete_Branch----------------------------*/
-	public function delete_Branch()
+	/*-------------------------------------------------------------------delete_result----------------------------*/
+	public function delete_result()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Delete_Branch',$data);
+		$this->load->view('admin/Delete_result',$data);
 	}
-	/*-------------------------------------------------------------------edit_Branch----------------------------*/
-	public function edit_Branch()
+	/*-------------------------------------------------------------------edit_result----------------------------*/
+	public function edit_result()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Edit_Branch',$data);
+		$this->load->view('admin/Edit_result',$data);
 	}
-	/*-------------------------------------------------------------------search_Branch----------------------------*/
-	public function search_Branch()
+	/*-------------------------------------------------------------------Search_result----------------------------*/
+	public function search_result()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Search_Branch',$data);
+		$this->load->view('admin/Search_result',$data);
 	}
 	
-
-
-
 
 
 	

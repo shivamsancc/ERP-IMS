@@ -18,54 +18,58 @@ class Main extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-
-	/*-------------------------------------------------------------------Add-Branch----------------------------*/
-	public function add_Branch()
+	/*-------------------------------------------------------------------Add-Admit-card----------------------------*/
+	public function add_admit()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Add_Branch',$data);
+		$this->load->view('admin/add_admit',$data);
 	}
-	/*-------------------------------------------------------------------Delete_Branch----------------------------*/
-	public function delete_Branch()
+	/*-------------------------------------------------------------------Delete_admit----------------------------*/
+		public function delete_admit()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Delete_Branch',$data);
+		$this->load->view('admin/Delete_admit',$data);
 	}
-	/*-------------------------------------------------------------------edit_Branch----------------------------*/
-	public function edit_Branch()
+	/*-------------------------------------------------------------------edit_admit----------------------------*/
+	public function edit_admit()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Edit_Branch',$data);
-	}
-	/*-------------------------------------------------------------------search_Branch----------------------------*/
-	public function search_Branch()
-	{
-		$data['marquee']=$this->search_student->getdata();
-		$data['student_registration']=$this->search_student->getdata();
-		
-
-
-		$this->load->view('admin/Search_Branch',$data);
+		$this->load->view('admin/Edit_admit',$data);
 	}
 	
+	/*-------------------------------------------------------------------search_Admit-card----------------------------*/
+	public function search_admit()
+	{
+		$data['marquee']=$this->search_student->getdata();
+		$data['student_registration']=$this->search_student->getdata();
+		
 
 
+		$this->load->view('admin/Search_Admit',$data);
+	}
+
+	/*-------------------------------------------------------------------search_student----------------------------*/
+	public function search_student()
+	{
+		$data['marquee']=$this->search_student->getdata();
+		$data['student_registration']=$this->search_student->getdata();
+		
 
 
-
-	
+		$this->load->view('admin/Search_student',$data);
+	}
 
 }
 

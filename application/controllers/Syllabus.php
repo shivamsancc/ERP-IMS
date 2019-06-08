@@ -18,51 +18,47 @@ class Main extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-
-	/*-------------------------------------------------------------------Add-Branch----------------------------*/
-	public function add_Branch()
+	/*-------------------------------------------------------------------Add_syllabus----------------------------*/
+	public function add_syllabus()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Add_Branch',$data);
+		$this->load->view('admin/Add_syllabus',$data);
 	}
-	/*-------------------------------------------------------------------Delete_Branch----------------------------*/
-	public function delete_Branch()
+	/*-------------------------------------------------------------------delete_syllabus----------------------------*/
+	public function delete_syllabus()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Delete_Branch',$data);
+		$this->load->view('admin/Delete_syllabus',$data);
 	}
-	/*-------------------------------------------------------------------edit_Branch----------------------------*/
-	public function edit_Branch()
+	/*-------------------------------------------------------------------edit_syllabus----------------------------*/
+	public function edit_syllabus()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Edit_Branch',$data);
+		$this->load->view('admin/Edit_syllabus',$data);
 	}
-	/*-------------------------------------------------------------------search_Branch----------------------------*/
-	public function search_Branch()
+
+	/*-------------------------------------------------------------------Search_syllabus----------------------------*/
+	public function search_syllabus()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Search_Branch',$data);
+		$this->load->view('admin/Search_syllabus',$data);
 	}
-	
-
-
-
 
 
 	
@@ -89,3 +85,4 @@ class Main extends CI_Controller {
 
 
 	
+ssss

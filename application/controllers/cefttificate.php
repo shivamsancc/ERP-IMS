@@ -18,53 +18,46 @@ class Main extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-
-	/*-------------------------------------------------------------------Add-Branch----------------------------*/
-	public function add_Branch()
+	/*-------------------------------------------------------------------add_certificate----------------------------*/
+	public function add_certificate()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Add_Branch',$data);
+		$this->load->view('admin/add_certificate',$data);
 	}
-	/*-------------------------------------------------------------------Delete_Branch----------------------------*/
-	public function delete_Branch()
+	/*-------------------------------------------------------------------Delete_certificate----------------------------*/
+	public function delete_certificate()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Delete_Branch',$data);
+		$this->load->view('admin/Delete_certificate',$data);
 	}
-	/*-------------------------------------------------------------------edit_Branch----------------------------*/
-	public function edit_Branch()
+	/*-------------------------------------------------------------------Edit_certificate----------------------------*/
+	public function edit_certificate()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Edit_Branch',$data);
+		$this->load->view('admin/Edit_certificate',$data);
 	}
-	/*-------------------------------------------------------------------search_Branch----------------------------*/
-	public function search_Branch()
+	/*-------------------------------------------------------------------search_Certificate----------------------------*/
+	public function search_Certificate()
 	{
 		$data['marquee']=$this->search_student->getdata();
 		$data['student_registration']=$this->search_student->getdata();
 		
 
 
-		$this->load->view('admin/Search_Branch',$data);
+		$this->load->view('admin/Search_Certificate',$data);
 	}
-	
-
-
-
-
-
 	
 
 }

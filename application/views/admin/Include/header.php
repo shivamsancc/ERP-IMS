@@ -28,7 +28,11 @@ $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'
 	<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/') ?>images/loader1.gif">
 <!-- All JS Included --> 
 
+<<<<<<< HEAD
 	<script src="<?= base_url('assets/') ?>js/jquery-1.11.3.min.js"></script>
+=======
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+>>>>>>> f5ef33748fde3e2dc2fd8186271b66838292bc89
 	<script src="<?= base_url('assets/') ?>jquery/jquery-3.1.1.min.js"></script> 
 	<script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script> 
 	<script src="<?= base_url('assets/') ?>jquery/jquery.meanmenu.js"></script> 

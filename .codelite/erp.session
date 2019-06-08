@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <Session Name="C:\xampp\htdocs\erp\erp.workspace">
   <int Value="1" Name="m_selectedTab"/>
   <wxString Value="C:\xampp\htdocs\erp\erp.workspace" Name="m_workspaceName"/>
@@ -7,13 +8,64 @@
       <wxString Value="C:\xampp\htdocs\erp\assets\css\style.css" Name="FileName"/>
       <int Value="369" Name="FirstVisibleLine"/>
       <int Value="383" Name="CurrentLine"/>
+=======
+<Session Name="F:\install\Xampp\htdocs\erp\erp.workspace">
+  <int Value="4" Name="m_selectedTab"/>
+  <wxString Value="F:\install\Xampp\htdocs\erp\erp.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\views\admin\add_student.php" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+>>>>>>> f5ef33748fde3e2dc2fd8186271b66838292bc89
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
+<<<<<<< HEAD
       <wxString Value="C:\xampp\htdocs\erp\application\views\admin\add_student.php" Name="FileName"/>
       <int Value="7" Name="FirstVisibleLine"/>
       <int Value="34" Name="CurrentLine"/>
+=======
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\config\autoload.php" Name="FileName"/>
+      <int Value="36" Name="FirstVisibleLine"/>
+      <int Value="38" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\views\login.php" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\models\Search_student.php" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\controllers\Main.php" Name="FileName"/>
+      <int Value="74" Name="FirstVisibleLine"/>
+      <int Value="86" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\views\admin\Include\head.php" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="44" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="F:\install\Xampp\htdocs\erp\application\config\routes.php" Name="FileName"/>
+      <int Value="42" Name="FirstVisibleLine"/>
+      <int Value="52" Name="CurrentLine"/>
+>>>>>>> f5ef33748fde3e2dc2fd8186271b66838292bc89
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
