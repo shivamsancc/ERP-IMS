@@ -49,10 +49,12 @@
     <i class="fa fa-caret-down"></i></i> 
   </button>
   <div class="dropdown-container">
-  <a class="fa fa-fw fa-user-plus" href="<?= base_url('add-Branch'); ?>">  Add Branches  </a></i> 
-	    <a class="fa fa-fw fa-edit" href="<?= base_url('edit-Branch'); ?>">  Edit Branches  </a>
-	    <a class="fa fa-fw fa-trash" href="<?= base_url('Delete-Branch'); ?>">  Delete Branches  </a>
-	    <a class="fa fa-fw fa-search" href="<?= base_url('Search-Branch'); ?>">  Search Branches  </a>
+  <a class="fa fa-fw fa-user-plus" href="<?= base_url('add-branchmanager'); ?>">  Add Branch Manager  </a></i> 
+      <a class="fa fa-fw fa-edit" href="<?= base_url('edit-branch'); ?>">  Edit Branch Manager  </a>
+      <a class="fa fa-fw fa-user-plus" href="<?= base_url('add-branch'); ?>">  Add Branch </a></i> 
+	    <a class="fa fa-fw fa-edit" href="<?= base_url('edit-branch'); ?>">  Edit Branch</a>
+	    <a class="fa fa-fw fa-trash" href="<?= base_url('Delete-branch'); ?>">  Delete Branches  </a>
+	    <a class="fa fa-fw fa-search" href="<?= base_url('Search-branch'); ?>">  Search Branches  </a>
   </div>
   <!--Manage Branches-->
    <!--Accounting-->
@@ -119,9 +121,9 @@
     <i class="fa fa-caret-down"></i></i> 
   </button>
   <div class="dropdown-container">
-    <a class="fa fa-fw fa fa-graduation-cap" href="#">  Notice</a>
-    <a class="fa fa-fw fa-edit" href="#">  Edit Course </a>
-	<a class="fa fa-fw fa-trash" href="#">  Delete Course </a>
+    <a class="fa fa-fw fa fa-graduation-cap" id="flip" href="#">  Notice</a>
+    <a class="fa fa-fw fa-edit" id="panel" href="#">  Edit Course </a>
+	<a class="fa fa-fw fa-trash" id="panel"  href="#">  Delete Course </a>
     	
   </div>
   <!--Course--> 
@@ -136,3 +138,10 @@
 </div>
 
 </div>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>

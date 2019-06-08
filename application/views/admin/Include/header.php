@@ -23,10 +23,12 @@ $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'
 	<link href="<?= base_url('assets/') ?>css/style.css" rel="stylesheet">
 	<!-- Animate CSS -->
 	<link href="<?= base_url('assets/') ?>animate/animate.css" rel="stylesheet">
+	<link href="<?= base_url('assets/') ?>css/dataTables.bootstrap.min.css" rel="stylesheet">
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/') ?>images/loader1.gif">
 <!-- All JS Included --> 
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+	<script src="<?= base_url('assets/') ?>js/jquery-1.11.3.min.js"></script>
 	<script src="<?= base_url('assets/') ?>jquery/jquery-3.1.1.min.js"></script> 
 	<script src="<?= base_url('assets/') ?>bootstrap/js/bootstrap.min.js"></script> 
 	<script src="<?= base_url('assets/') ?>jquery/jquery.meanmenu.js"></script> 
@@ -35,7 +37,10 @@ $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME'
 	<script src="<?= base_url('assets/') ?>jquery/jquery.countdown.min.js"></script>
 	<script src="<?= base_url('assets/') ?>js/angular.min.js"></script> 
 	<script src="<?= base_url('assets/') ?>js/jquery.min.js"></script>
-	<script type="text/javascript" src="http://www.imgglobalinfotech.com/blog/web_root/ckeditor/ckeditor.js"></script>
+	<script src="<?= base_url('assets/') ?>js/jquery.dataTables.min.js"></script>
+	<script src="<?= base_url('assets/') ?>js/dataTables.bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="<?= base_url('assets/') ?>ckeditor/ckeditor.js"></script>
 <!-- All JS Included --> 
 	<!--<script src="<?= base_url('assets/') ?>vjs/custom.js"></script>-->
 

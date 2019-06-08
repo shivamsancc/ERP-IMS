@@ -7,7 +7,7 @@ $(window).load(function() {
 
 		<div class="col-md-12 row admin-footer">
 			<div class="col-md-6 Right">
-				<p>&copy; 2008-<?php echo date("d-M-Y");?> All Rights Resved For <a href="http://www.imgglobalinfotech.com/"><img src="<?= base_url('assets/') ?>images/imgglobalinfotech.png"  class=" footer-logo"></a> </p>
+				<p>&copy; 2008-<?php echo date("d-M-Y");?> All Rights Reserved For <a href="http://www.imgglobalinfotech.com/"><img src="<?= base_url('assets/') ?>images/imgglobalinfotech.png"  class=" footer-logo"></a> </p>
 			</div>
 
 			<div class="col-md-6 ">

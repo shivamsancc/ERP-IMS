@@ -10,12 +10,11 @@
 	<h1 style="text-align: center; color: black">Send E-mail</h1><hr class="Notice-line"> 	
 <!-------------------------------Main Content---------------------------------->			
 <form class="form-content">
-	Enter Your Recipient's Mail Address	<input class="form-control" type="email" placeholder="admin@example.com"><br>OR
-	Recipient<select class="form-control"	>
+	Enter Your Recipient's Mail Address	<input  required="required" class="form-control" type="email" placeholder="admin@example.com"><br>OR
+	Recipient<select  required="required" class="form-control"	>
 		<option value="none" default="defalut">Select</option>
 		<option value="student">Students</option>
 		<option value="centers">Centers/Teacheres</option>
-		<option></option>
 	</select>Mail 
 	<div class="controls">
 		<textarea name="description" class="form-control ckeditor" required="required"></textarea>

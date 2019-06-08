@@ -5,7 +5,7 @@ public function __construct(){
 parent::__construct();
 
 }
-
+//----------------------Notice Insert Notice	
 public function insert()
 {
 
@@ -13,6 +13,8 @@ public function insert()
 	$this->db->insert('cittet_dash_notice',$data);
 
 }
+//----------------------Notice Insert Notice	
+//----------------------Notice show Notice	
 public function getdata()
 {
 	$this->db->limit('1','0');
@@ -23,7 +25,7 @@ $result = $query->result_array();
 return $result;
 
 }
-
+//----------------------Notice show Notice	
 public function mainnotice($id)
 {
 	$this->db->where('id',$id); 
@@ -33,6 +35,7 @@ $result = $query->row_array();
 return $result;
 
 }
+
 
 }
 ?>

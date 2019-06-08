@@ -58,7 +58,8 @@ $route['dashboard'] = "Main/admin";
 
 /*-------------------------------------------------------------------------Add Routes start Here-------------------------------------*/
 $route['add-admitcard'] = "Main/add_admit";
-$route['add-branch'] = "Main/add_Branch";
+$route['add-branchmanager'] = "Main/Add_Branchmanager";
+$route['add-branch'] = "Main/Add_Branch";
 $route['add-Certificate'] = "Main/add_certificate";
 $route['add-notice'] = "Main/add_notice";
 $route['add-result'] = "Main/add_result";
